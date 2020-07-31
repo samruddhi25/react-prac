@@ -6,7 +6,7 @@ const Hello = ( ) => {
         {
             id:'hello',className : ' dummyClass'},
     React.createElement('h1',null,'Hello Samruddhi')
-    )
+    );
     }
 
 export default Hello

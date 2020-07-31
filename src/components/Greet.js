@@ -8,5 +8,7 @@ return(
     <h1>Hello {props.name} is {props.heroName}</h1>
 {props.children}
     
-    </div>)}
+    </div>
+    );
+}
 export default Greet
