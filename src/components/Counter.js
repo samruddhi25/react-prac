@@ -7,11 +7,25 @@ constructor(props) {
 count : 0
     }
 }
-
 increment(){
-    this.state.count=this.state.count +1
+    this.setState(
+        {
+count : this.state.count+1 
+    },
+    
+    () => {
+        console.log('Callback Value',this.state.count)
+    }
+    )
+    console.log(this.state)
+    this.setState((prevState,props)=>(
+        {
+            count:prevState.count+1
+        }
+    ))
     console.log(this.state.count)
 }
+
     render() {
         return (
             <div>
