@@ -8,4 +8,4 @@ function  functionClick() {
     </div>
     )
 }
-export default FunctionClick;
+export default FunctionClick
