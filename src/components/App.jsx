@@ -6,9 +6,9 @@ import Hello from './Hello';
 const App = () => {
   return (
     <div className="App">
-      
-<Hello/>           
-
+      <h1>
+Hello World           
+</h1>
     </div>
   )
 }
